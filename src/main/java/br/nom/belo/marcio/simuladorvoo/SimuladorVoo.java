@@ -60,7 +60,7 @@ class Aeroporto implements Runnable {
     private Random random = new Random();
     private static final Logger LOG = LoggerFactory.getLogger( "Aeroporto");
     //Alterado por Davi v
-    private static boolean running = true;
+    private boolean running = true;
     public Aeroporto(String nomeAeroporto) {
         
         this.nomeAeroporto = nomeAeroporto;
